@@ -1,0 +1,17 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "cloudformation",
+            "title": "Lambda",
+            "timeOffsetInMs": 0,
+            "awsProfile": "default",
+            "stacks": [
+                {
+                    "region": "eu-west-2",
+                    "stackName": "CdkLambdaDbStack",
+                    "stage": "dev"
+                }
+            ]
+        }
+    ]
+}
